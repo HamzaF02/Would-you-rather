@@ -42,7 +42,7 @@ jobs:
     if: github.ref == 'refs/heads/main'
     environment:
       name: github_pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: https://hamzaf02.github.io/Would-you-rather/
 
 
     permissions:
