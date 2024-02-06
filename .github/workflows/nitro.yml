@@ -43,7 +43,7 @@ jobs:
     # Deploy to the github_pages environment
     environment:
       name: server
-      url: ${{ steps.deployment.outputs.page_url +"/server"}}
+      url: ${{ steps.deployment.outputs.page_url}}
 
     # Specify runner + deployment step
     runs-on: ubuntu-latest
