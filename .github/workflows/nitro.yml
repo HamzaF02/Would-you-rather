@@ -43,7 +43,7 @@ jobs:
     # Deploy to the github_pages environment
     environment:
       name: server
-      url: ${{ steps.deployment.outputs.page_url}}
+      url: https://hamzaf02.github.io/Would-you-rather/server
 
     # Specify runner + deployment step
     runs-on: ubuntu-latest
