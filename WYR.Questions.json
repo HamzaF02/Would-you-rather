@@ -1,0 +1,64 @@
+[{
+  "_id": {
+    "$oid": "65b8f6d8802006bda68c0d1c"
+  },
+  "question": "Jump?",
+  "option1": "Do it",
+  "option2": "Do not do it"
+},
+{
+  "_id": {
+    "$oid": "65b8f6d8802006bda68c0d1d"
+  },
+  "question": "Would you rather be in jail for five years or be in a coma for a decade?",
+  "option1": "Jail for five years",
+  "option2": "Coma for a decade"
+},
+{
+  "_id": {
+    "$oid": "65b8f6d8802006bda68c0d1e"
+  },
+  "question": "Would you rather have universal respect or unlimited power?",
+  "option1": "Universal respect",
+  "option2": "Unlimited power"
+},
+{
+  "_id": {
+    "$oid": "65b8f6d8802006bda68c0d1f"
+  },
+  "question": "Would you rather have a rewind button or a pause button on your life?",
+  "option1": "Rewind button",
+  "option2": "Pause button"
+},
+{
+  "_id": {
+    "$oid": "65b8f6d8802006bda68c0d20"
+  },
+  "question": "Would you feel worse if no one showed up to your wedding or to your funeral?",
+  "option1": "Wedding",
+  "option2": "Funeral"
+},
+{
+  "_id": {
+    "$oid": "65b8f6d8802006bda68c0d21"
+  },
+  "question": "Sunfire?",
+  "option1": "Sun",
+  "option2": "Fiyah"
+},
+{
+  "_id": {
+    "$oid": "65b8f6d8802006bda68c0d22"
+  },
+  "question": "Would you rather have unlimited fiske burger but no games, or games, unlimited games, but no games?",
+  "option1": "Unlimited Fiske burger but no games",
+  "option2": "Games, unlimited games but no games"
+},
+{
+  "_id": {
+    "$oid": "65b8f8c6d78847766208da53"
+  },
+  "question": "Should we get kebab?",
+  "option1": "Yes",
+  "option2": "No"
+}]
