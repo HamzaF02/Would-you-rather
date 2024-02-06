@@ -50,8 +50,6 @@ jobs:
           path: ./Client/dist
 
       - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v1
-        #with:
-          #github_token: ${{ secrets.GITHUB_TOKEN }}
-          #publish_dir: ./Client/dist
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./Client/dist
