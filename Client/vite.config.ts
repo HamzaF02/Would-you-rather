@@ -11,5 +11,5 @@ export default defineConfig({
       '/api': 'http://localhost:3000'
     }
   },
-  base: "/Would-you-rather/"
+  base: "/Would-you-rather/Client"
 })
