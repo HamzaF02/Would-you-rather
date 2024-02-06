@@ -39,6 +39,10 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/main'
+    environment:
+      name: github_pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
 
     permissions:
       contents: write
