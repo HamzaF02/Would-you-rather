@@ -41,6 +41,7 @@ jobs:
     if: github.ref == 'refs/heads/main'
 
     permissions:
+      content: write
       pages: write      # to deploy to Pages
       id-token: write   # to verify the deployment originates from an appropriate source
 
