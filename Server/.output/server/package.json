@@ -1,0 +1,18 @@
+{
+  "name": "server-prod",
+  "version": "0.0.0",
+  "type": "module",
+  "private": true,
+  "dependencies": {
+    "@mongodb-js/saslprep": "1.1.4",
+    "bson": "6.2.0",
+    "memory-pager": "1.5.0",
+    "mongodb": "6.3.0",
+    "mongodb-connection-string-url": "3.0.0",
+    "punycode": "2.3.1",
+    "sparse-bitfield": "3.0.3",
+    "tr46": "4.1.1",
+    "webidl-conversions": "7.0.0",
+    "whatwg-url": "13.0.0"
+  }
+}
