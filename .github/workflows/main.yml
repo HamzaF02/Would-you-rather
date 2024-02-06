@@ -28,14 +28,12 @@ jobs:
         working-directory: ./Client
         run: npm run build
         
-      - name: Run project
-        working-directory: ./Client
-        run: npm run dev
-      #- name: Upload production-ready build files
-        #uses: actions/upload-artifact@v2
-        #with:
-          #name: production-files
-          #path: ./Client/dist
+
+      - name: Upload production-ready build files
+        uses: actions/upload-artifact@v2
+        with:
+          name: production-files
+          path: ./Client/dist
 
   deploy:
     name: Deploy
