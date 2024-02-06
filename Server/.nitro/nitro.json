@@ -1,0 +1,17 @@
+{
+  "date": "2024-02-01T19:56:49.593Z",
+  "preset": "github_pages",
+  "framework": {
+    "name": "nitro",
+    "version": "2.8.1"
+  },
+  "versions": {
+    "nitro": "2.8.1"
+  },
+  "dev": {
+    "pid": 24456,
+    "workerAddress": {
+      "socketPath": "\\\\.\\pipe\\nitro\\worker-24456-1.sock"
+    }
+  }
+}
