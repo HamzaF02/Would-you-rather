@@ -22,7 +22,7 @@ bruv()
 
 setInterval(()=>{
     console.log(question);
-    if(answers["op1"] > 0 && answers["op2"] > 0){
+    if(answers["op1"] > 0 || answers["op2"] > 0){
         instance.insertOne(answers)
     }
     bruv();},20000)
