@@ -2,8 +2,9 @@
     
     "rewrites": [
         {
-            "source": "/api/(.*)",
-            "destination": "https://wyrserver.onrender.com/api/(.*)"}
+            "source": "/api/:path*",
+            "destination": "https://wyrserver.onrender.com/api/:path*"
+          }
         ],
     "headers": [
       {
