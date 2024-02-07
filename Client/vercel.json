@@ -1,4 +1,10 @@
 {
+    
+    "rewrites": [
+        {
+            "source": "/api/(.*)",
+            "destination": "https://wyrserver.onrender.com/api/(.*)"}
+        ],
     "headers": [
       {
         "source": "/api/(.*)",
