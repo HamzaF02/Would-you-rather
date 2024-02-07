@@ -11,7 +11,7 @@ function App() {
   const {data: question, isLoading}= useQuery({
     queryKey:["question"],
     queryFn: async()=>{
-      const response = await fetch("/api/question");
+      const response = await fetch("https://wyrserver.onrender.com/api/question");
       const rep = await response.json() as q;
       const past = queryClient.getQueryData(["question"]) as q
       if(past && rep.question != past?.question){
