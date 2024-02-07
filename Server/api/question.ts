@@ -15,14 +15,16 @@ async function bruv(){
     const v = await questions.aggregate([ { $sample: { size: 1 } } ]).toArray()
     let obj =  v[0]
     question = obj
-    answers = {question:question["_id"],op1:0,op2:0}
+    answers = {question:question["_id"],op1:0,op2:0,time:new Date().toLocaleString()}
 }
 
 bruv()
 
 setInterval(()=>{
     console.log(question);
-    instance.insertOne(answers)
+    if(answers["op1"] > 0 && answers["op2"] > 0){
+        instance.insertOne(answers)
+    }
     bruv();},20000)
 
 export default defineEventHandler(() => {
