@@ -9,7 +9,7 @@ export default function Choice({color,answer,count,lock,lockIt}:any){
 
     const {mutateAsync: sendAnswer} = useMutation({
         mutationFn: async () =>{
-            const rep = await fetch('https://wyrserver.onrender.com/api/answer', {
+            const rep = await fetch('/api/answer', {
                 method: 'PUT',
                 headers: {
                     "Content-Type": "application/json"
