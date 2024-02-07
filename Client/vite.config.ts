@@ -8,7 +8,7 @@ export default defineConfig({
   plugins: [react()],
   server:{
     proxy:{
-      '/api': {target: 'http://jsonplaceholder.typicode.com',
+      '/api': {target: 'https://wyrserver.onrender.com/api/question',
       changeOrigin: true,
       rewrite: (path) => path.replace(/^\/api/, ''),}
     }
