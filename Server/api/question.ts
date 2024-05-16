@@ -1,5 +1,4 @@
 import { MongoClient } from "mongodb";
-// const client = new MongoClient("mongodb://localhost:27017")
 const client = new MongoClient(process.env.DATABASE)
 
 const database = client.db('WYR')
