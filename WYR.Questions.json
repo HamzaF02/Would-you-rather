@@ -1,11 +1,4 @@
-[{
-  "_id": {
-    "$oid": "65b8f6d8802006bda68c0d1c"
-  },
-  "question": "Jump?",
-  "option1": "Do it",
-  "option2": "Do not do it"
-},
+[
 {
   "_id": {
     "$oid": "65b8f6d8802006bda68c0d1d"
@@ -50,7 +43,7 @@
   "_id": {
     "$oid": "65b8f6d8802006bda68c0d22"
   },
-  "question": "Would you rather have unlimited fiske burger but no games, or games, unlimited games, but no games?",
+  "question": "Would you rather have unlimited fish burgers but no games, or games, unlimited games, but no games?",
   "option1": "Unlimited Fiske burger but no games",
   "option2": "Games, unlimited games but no games"
 },
