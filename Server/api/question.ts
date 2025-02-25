@@ -23,7 +23,7 @@ setInterval(()=>{
     if(answers["op1"] > 0 || answers["op2"] > 0){
         instance.insertOne(answers)
     }
-    bruv();},20000)
+    bruv();},60000)
 
 export default defineEventHandler(() => {
     let obj = structuredClone(question);
